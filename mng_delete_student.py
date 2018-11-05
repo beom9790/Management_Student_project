@@ -76,7 +76,7 @@ def delete_class(json_big_data, delete_class):
 
                 recheck_del = input("정말 강의 코드 '%s' 과목을 삭제하시겠습니까? (y/n) : " % delete_class)
                 if recheck_del == 'Y' or recheck_del == 'y':
-                    make_json(json_big_data)        ## JSon 파일 생성하는 함수로
+                    make_json(json_big_data)       ## JSon 파일 생성하는 함수로
                     print("강의 코드 '%s' 과목이 삭제되었습니다!!\n" % delete_class)
                     return None
                 elif recheck_del == 'N' or recheck_del == 'n':
