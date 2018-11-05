@@ -12,5 +12,3 @@ def make_json(json_big_data):
     with open('ITT_Student.JSon', 'w', encoding='utf8') as outfile:
         readable_result = json.dumps(json_big_data, indent=4, sort_keys=True, ensure_ascii=False)
         outfile.write(readable_result)
-
-
