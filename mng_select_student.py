@@ -33,7 +33,7 @@ def select_student(json_big_data):
 def total_student(json_big_data):
     print("<<전체 학생 정보 조회합니다.>>".center(30))
     for total_print in json_big_data:
-        personal_student_print(total_print)     ## 각각의 학생들 정보 출력을 위해 personal_student_print(total_print) 함수로
+        personal_student_print(total_print)    ## 각각의 학생들 정보 출력을 위해 personal_student_print(total_print) 함수로
 
 ## depth 1_ 개별 학생 정보 조회 함수(이름, 나이, 주소를 통한 조회)
 def personal_student(key_name, personal_select_number, json_big_data):
