@@ -10,7 +10,7 @@ def create_student(path_number, json_big_data):
     ## depth 1
     create_student = {}
     create_student['이름'] = input("이름을 입력해 주세요(예, 홍길동) : ")
-    if create_student['이름'] == "": return None      ## 엔터시 '돌아가기' 기능
+    if create_student['이름'] == "": return None     ## 엔터시 '돌아가기' 기능
     create_student['나이'] = input("나이를 입력해 주세요(예, 22) : ")
     if create_student['나이'] == "": return None
     create_student['주소'] = input("주소를 입력해 주세요(예, 대구광역시 달서구 성지로 177) : ")
