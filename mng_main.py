@@ -1,7 +1,7 @@
 from mng_start_student import *
 
 
-## Entry Point~~
+## Entry Point~
 json_big_data = []
 
 # 프로그램 시작 시 소스코드가 있는 경로에 'ITT_Student.JSon' 파일을 읽어 들인다
