@@ -118,5 +118,5 @@ def update_student(search_id, total_print, json_big_data):
         print("입력을 잘못하셨습니다. 다시 입력해 주세요!!\n")
         return None
 
-    make_json(json_big_data)  ## JSon 파일 생성하는 함수로
+    make_json(json_big_data)   ## JSon 파일 생성하는 함수로
     print("학생 정보 입력이 수정되었습니다!!\n")
