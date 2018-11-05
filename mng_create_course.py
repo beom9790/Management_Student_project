@@ -1,5 +1,5 @@
 def create_course(create_student_course_info_now_list, create_student):
-    create_student_course_info_now = {}         ## depth 3
+    create_student_course_info_now = {}        ## depth 3
     create_student_course_info_now['강의 코드'] = input("강의 코드를 입력해 주세요(예, PY180712) : ")
     if create_student_course_info_now['강의 코드'] == "": return None       ## 엔터시 '돌아가기' 기능
     create_student_course_info_now['강의명'] = input("강의명을 입력해 주세요(예, 점프투 파이썬) : ")
