@@ -33,7 +33,7 @@ def start_student(path_number, json_big_data):
                     print("입력을 잘못하셨습니다. 다시 입력해 주세요!!\n")
                     continue
 
-            elif initial_number == 5:           ## 프로그램 종료
+            elif initial_number == 5:       ## 프로그램 종료
                 print("이용해 주셔서 감사합니다!! 찡긋;)")
                 break
             else: print("입력을 잘못하셨습니다. 다시 입력해 주세요!!\n")
